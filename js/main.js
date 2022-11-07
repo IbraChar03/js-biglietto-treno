@@ -28,4 +28,7 @@ else{
     console.log(prezzoTot);
 }
 
-document.getElementById("title").innerHTML=(`Hai ${eta} anni e vuoi percorrere  ${chilometri} km, quindi il prezzo totale del biglietto è di ${rounded}\u20AC`);
+document.getElementById("anni").innerHTML=(`Hai ${eta} anni`);
+document.getElementById("chilometri").innerHTML=(`Vuoi percorrere  ${chilometri} km`);
+document.getElementById("prezzo").innerHTML=(`Il prezzo totale del biglietto è di ${rounded}\u20AC`);
+// document.getElementById("title").innerHTML=(`Hai ${eta} anni e vuoi percorrere  ${chilometri} km, quindi il prezzo totale del biglietto è di ${rounded}\u20AC`);

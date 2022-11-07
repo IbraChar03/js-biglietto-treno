@@ -1,4 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 40%;
+    height: 400px;
+    background-color: aqua;
+}
+
 #title{
-    color: red;
     text-align: center;
+}
+#anni{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#chilometri{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#biglietto2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+#prezzo{
+    display: none;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+.box{
+    width: 100%;
+}
+.box:active #prezzo{
+    display: block;
+    
 }
